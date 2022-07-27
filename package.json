@@ -1,0 +1,32 @@
+{
+  "name": "project-k",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "dev2": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krDannylo/Project-K.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krDannylo/Project-K/issues"
+  },
+  "homepage": "https://github.com/krDannylo/Project-K#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
